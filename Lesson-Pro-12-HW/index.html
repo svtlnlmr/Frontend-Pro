@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form name="my-form" id="my-form">
+        <fieldset class="my-form-info">
+            <label>User name
+                <input type="text" id="name" placeholder="John" required>
+            </label>
+            <label>Mobile phone (Ukraine)
+                <input type="tel" id="phone-number" placeholder="380998887766" minlength="9" required>
+            </label>
+            <label>E-mail
+                <input type="email" id="email-address" placeholder="name@domain.com" required>
+            </label>
+            <input class="submit" type="submit" id="submit" value="Submit">
+        </fieldset>
+    </form>
+    <div class="color-palette">
+        <div class="color" id="salmon" data-color="salmon"></div>
+        <div class="color" id="blue" data-color="blue"></div>
+        <div class="color" id="yellow" data-color="yellow"></div>
+    </div>
+    <div class="line" id="line"></div>
+    <div class="board">Board for painting</div>
+    <canvas id="canvas" width="500" height="300"></canvas>
+
+<script src="js.js"></script>
+</body>
+</html>
