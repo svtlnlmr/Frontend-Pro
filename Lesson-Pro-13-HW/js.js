@@ -39,9 +39,8 @@ function task1() {
 }
 
 function task2() {
-    class Plane extends Object {
+    class Plane {
         constructor (name) {
-            super();
             this.name = name;
             this.isFlying = false;
         }
