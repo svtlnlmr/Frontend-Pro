@@ -3,8 +3,21 @@ import './App.css';
 import React from 'react';
 
 class Image extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            src: logo,
+            alt: 'imagination'
+        }
+        this.showUrlDetail = this.showUrlDetail.bind(this);
+    };
+
+    showUrlDetail() {
+        return <img className="Image" src={this.state.src} alt={this.state.alt}/>
+    }
+
     render() {
-        return <img className="Image" src={logo} alt='imagination'/>
+        return this.showUrlDetail();
     }
 }
 
@@ -39,3 +52,6 @@ function App() {
 }
 
 export default App;
+
+
+
