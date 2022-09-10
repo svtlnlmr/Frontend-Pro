@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Image {
+  width: 500px;
+}
+
+.Hello-Page {
+  padding: 10px;
+  border: 2px solid orange;
+}
+
+.Contact-Card {
+  width: 500px;
+  margin: 10px 0;
+}
+
+.Contact-Card-h3 {
+  color: midnightblue;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.App-nav {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: wheat;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.text {
+  margin: 5px;
+  background: linear-gradient(to right, orange, purple);
+}
